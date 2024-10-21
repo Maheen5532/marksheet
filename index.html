@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marks Sheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Marks Sheet</h1>
+        <input type="text" id="studentName" placeholder="Student Name">
+        <input type="text" id="studentId" placeholder="Student ID">
+        <input type="number" id="english" placeholder="English Marks">
+        <input type="number" id="urdu" placeholder="Urdu Marks">
+        <input type="number" id="math" placeholder="Math Marks">
+        <button  onclick="generateMarksSheet()">Generate Marks Sheet</button>
+        <button class="reset-btn" onclick="reset()">Reset</button>  
+    </div>
+    <div class="con-2">
+        <div id="result"></div>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>

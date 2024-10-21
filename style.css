@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100..900&display=swap');
+body {
+    font-family: "Exo 2", sans-serif;
+    background-color: #ffac8c;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 2% auto;
+    background: peachpuff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+p {
+    font-size: 18px;
+    color: #555;
+}
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 70%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    text-align: center;
+    outline: none;
+    font-size: 1rem;
+}
+button {
+    margin-top: 10px;
+    padding: 11px 15px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    background-color: salmon;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+}
+button:hover {
+    background-color: #4cae4c;
+    transition: background-color 0.3s;
+}
+.reset-btn {
+    background-color: #07a093;
+}
+
+.reset-btn:hover {
+    background-color: #c82333;
+}
+.error {
+    color: red;
+    margin-top: 10px;
+}
+.con-2 {
+    display: none; 
+    width: 500px;
+    margin: 2% auto;
+    background: peachpuff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+table{
+    width: 100%;
+    
+}
+@media (max-width: 600px) {
+    .container, .con-2 {
+        width: 90%; 
+        margin: 10% auto; 
+        padding: 15px; 
+    }
+    h1 {
+        font-size: 24px; 
+    }
+    p {
+        font-size: 16px; 
+    }
+    input {
+        padding: 8px;
+    }
+    button {
+        padding: 8px 10px; 
+        width: 70%; 
+    }
+    table {
+        width: 4rem;
+        margin-left: 0;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+    
+
+    
+  
+    
+}
